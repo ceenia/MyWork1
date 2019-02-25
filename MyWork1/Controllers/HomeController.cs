@@ -26,5 +26,11 @@ namespace MyWork1.Controllers
 
             return View();
         }
+        public ActionResult Test()
+        {
+            ViewBag.Message = "Your test page.";
+
+            return View();
+        }
     }
 }
